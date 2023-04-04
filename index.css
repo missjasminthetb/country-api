@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header h3 {
+  padding: 10px;
+  text-align: center;
+}
+.things {
+  list-style-type: none;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.397);
+  width: 200px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.pic {
+  width: 200px;
+  height: 150px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.details h3 {
+  padding-bottom: 15px;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
