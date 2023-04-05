@@ -4,7 +4,6 @@ axios("https://restcountries.com/v3.1/all")
 .then(data => data.forEach(element => {
   createHtml(element)
 }))
-// console.log(data)
 
 
 function createHtml(element) {
@@ -48,4 +47,3 @@ function createHtml(element) {
 
   main.append(card);
 }
-// createHtml();
