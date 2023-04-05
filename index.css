@@ -7,6 +7,16 @@ header h3 {
   padding: 10px;
   text-align: center;
 }
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(240, 90, 115);
+  text-transform: capitalize;
+}
+header p{
+  font-weight: bold;
+}
 .things {
   list-style-type: none;
 }
